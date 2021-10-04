@@ -1,9 +1,12 @@
 # Ardour Colour Themes
 
-You can add these to ardour by dropping them into `/opt/Ardour-x.y.z/share/themes/`, eg:
+Install the themes by running the install script!
 
 ```
-$> cp ./monokai/monokai-soda.colors /opt/Ardour-6.9.0/share/themes/monokai-soda.colors
+$> sudo ./install.sh
 ```
+
+Or if Ardour is installed somewhere else you'll have to find the `share/themes` directory 
+and copy them into there.
 
 That easy.

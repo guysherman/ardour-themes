@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Ardour>
+<Ardour theme-name="Monokai">
   <Colors>
-    <Color name="alert:blue" value="58d1ebff"/>
+    <Color name="alert:blue" value="b4d273ff"/>
     <Color name="alert:cyan" value="9e86c8ff"/>
-    <Color name="alert:green" value="98e024ff"/>
-    <Color name="alert:greenish" value="98e024ff"/>
-    <Color name="alert:orange" value="fa8419ff"/>
+    <Color name="alert:green" value="b4d273ff"/>
+    <Color name="alert:greenish" value="b4d273ff"/>
+    <Color name="alert:orange" value="e87d3eff"/>
     <Color name="alert:red" value="b05279ff"/>
     <Color name="alert:ruddy" value="b05279ff"/>
     <Color name="alert:yellow" value="e5b567ff"/>
-    <Color name="meter color0" value="58d1ebff"/>
-    <Color name="meter color1" value="58d1ebff"/>
-    <Color name="meter color2" value="98e024ff"/>
-    <Color name="meter color3" value="98e024ff"/>
-    <Color name="meter color4" value="fa8419ff"/>
-    <Color name="meter color5" value="fa8419ff"/>
-    <Color name="meter color6" value="f4005fff"/>
-    <Color name="meter color7" value="f4005fff"/>
+    <Color name="meter color0" value="6c99bbff"/>
+    <Color name="meter color1" value="6c99bbff"/>
+    <Color name="meter color2" value="b4d273ff"/>
+    <Color name="meter color3" value="b4d273ff"/>
+    <Color name="meter color4" value="e5b567ff"/>
+    <Color name="meter color5" value="e5b567ff"/>
+    <Color name="meter color6" value="e87d3eff"/>
+    <Color name="meter color7" value="e87d3eff"/>
     <Color name="meter color8" value="b05279ff"/>
     <Color name="meter color9" value="b05279ff"/>
     <Color name="midi meter 52" value="e8faa1ff"/>
@@ -24,29 +24,29 @@
     <Color name="midi meter 54" value="ffac44ff"/>
     <Color name="midi meter 55" value="f48352ff"/>
     <Color name="midi meter 56" value="f85813ff"/>
-    <Color name="neutral:background" value="1a1a1aff"/>
-    <Color name="neutral:background2" value="0d0d0dff"/>
+    <Color name="neutral:background" value="2e2e2eff"/>
+    <Color name="neutral:background2" value="171717ff"/>
     <Color name="neutral:backgroundest" value="000000ff"/>
-    <Color name="neutral:foreground" value="939488ff"/>
-    <Color name="neutral:foreground2" value="c4c5b5ff"/>
-    <Color name="neutral:foregroundest" value="f6f6efff"/>
-    <Color name="neutral:midground" value="625e4cff"/>
-    <Color name="theme:bg" value="1a1a1aff"/>
-    <Color name="theme:bg1" value="0d0d0dff"/>
+    <Color name="neutral:foreground" value="9c9c9cff"/>
+    <Color name="neutral:foreground2" value="b5b5b5ff"/>
+    <Color name="neutral:foregroundest" value="d6d6d6ff"/>
+    <Color name="neutral:midground" value="797979ff"/>
+    <Color name="theme:bg" value="2e2e2eff"/>
+    <Color name="theme:bg1" value="171717ff"/>
     <Color name="theme:bg2" value="000000ff"/>
     <Color name="theme:contrasting" value="b05279ff"/>
     <Color name="theme:contrasting alt" value="9e86c8ff"/>
-    <Color name="theme:contrasting clock" value="98e024ff"/>
-    <Color name="theme:contrasting less" value="58d1ebff"/>
-    <Color name="theme:contrasting selection" value="58d1ebff"/>
+    <Color name="theme:contrasting clock" value="b4d273ff"/>
+    <Color name="theme:contrasting less" value="6c99bbff"/>
+    <Color name="theme:contrasting selection" value="6c99bbff"/>
     <Color name="widget:bg" value="2e2e2eff"/>
-    <Color name="widget:blue" value="58d1ebff"/>
-    <Color name="widget:blue darker" value="2f6f7dff"/>
+    <Color name="widget:blue" value="6c99bbff"/>
+    <Color name="widget:blue darker" value="344959ff"/>
     <Color name="widget:gray" value="797979ff"/>
-    <Color name="widget:green" value="98e024ff"/>
-    <Color name="widget:green darker" value="4c7012ff"/>
-    <Color name="widget:orange" value="fa8419ff"/>
-    <Color name="widget:ruddy" value="80430dff"/>
+    <Color name="widget:green" value="b4d273ff"/>
+    <Color name="widget:green darker" value="62733fff"/>
+    <Color name="widget:orange" value="e87d3eff"/>
+    <Color name="widget:ruddy" value="7d4321ff"/>
   </Colors>
   <ColorAliases>
     <ColorAlias name="active crossfade" alias="neutral:foreground"/>
@@ -110,9 +110,9 @@
     <ColorAlias name="ghost track wave clip" alias="neutral:background"/>
     <ColorAlias name="ghost track wave fill" alias="neutral:foregroundest"/>
     <ColorAlias name="ghost track zero line" alias="neutral:foreground2"/>
-    <ColorAlias name="grid line major" alias="widget:green darker"/>
-    <ColorAlias name="grid line micro" alias="widget:blue darker"/>
-    <ColorAlias name="grid line minor" alias="widget:ruddy"/>
+    <ColorAlias name="grid line major" alias="neutral:foregroundest"/>
+    <ColorAlias name="grid line micro" alias="neutral:midground"/>
+    <ColorAlias name="grid line minor" alias="neutral:foreground2"/>
     <ColorAlias name="gtk_arm" alias="alert:red"/>
     <ColorAlias name="gtk_audio_bus" alias="widget:blue darker"/>
     <ColorAlias name="gtk_audio_track" alias="theme:bg1"/>
@@ -133,7 +133,7 @@
     <ColorAlias name="gtk_fg_selected" alias="theme:bg2"/>
     <ColorAlias name="gtk_fg_tooltip" alias="neutral:background"/>
     <ColorAlias name="gtk_foldback_bg" alias="theme:bg1"/>
-    <ColorAlias name="gtk_foreground" alias="neutral:foregroundest"/>
+    <ColorAlias name="gtk_foreground" alias="neutral:foreground"/>
     <ColorAlias name="gtk_light_text_on_dark" alias="neutral:foreground2"/>
     <ColorAlias name="gtk_lightest" alias="neutral:foregroundest"/>
     <ColorAlias name="gtk_midi_channel_selector" alias="widget:blue"/>
@@ -184,7 +184,7 @@
     <ColorAlias name="master monitor section button active: fill" alias="widget:ruddy"/>
     <ColorAlias name="master monitor section button active: fill active" alias="alert:yellow"/>
     <ColorAlias name="master monitor section button normal: fill active" alias="widget:bg"/>
-    <ColorAlias name="measure line bar" alias="neutral:foreground2"/>
+    <ColorAlias name="measure line bar" alias="neutral:foregroundest"/>
     <ColorAlias name="measure line beat" alias="widget:blue"/>
     <ColorAlias name="meter background bottom" alias="neutral:background2"/>
     <ColorAlias name="meter background top" alias="theme:bg"/>
